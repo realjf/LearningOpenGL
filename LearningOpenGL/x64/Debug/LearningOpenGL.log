@@ -1,0 +1,3 @@
+﻿  main.cpp
+F:\visual_studio_projects\LearningOpenGL\LearningOpenGL\src\main.cpp(102,36): warning C4267: '=': conversion from 'size_t' to 'GLint', possible loss of data
+  LearningOpenGL.vcxproj -> F:\visual_studio_projects\LearningOpenGL\x64\Debug\LearningOpenGL.exe
