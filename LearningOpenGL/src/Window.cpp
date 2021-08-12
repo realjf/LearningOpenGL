@@ -47,7 +47,7 @@ int Window::Init()
 	glfwMakeContextCurrent(mainWindow);
 
 	CreateCallbacks();
-	glfwSetInputMode(mainWindow, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+	//glfwSetInputMode(mainWindow, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
 	glewExperimental = GL_TRUE;
 	if (glewInit() != GLEW_OK)
@@ -119,7 +119,6 @@ void Window::handleMouse(GLFWwindow* window, double xPos, double yPos)
 	theWindow->lastX = xPos;
 	theWindow->lastY = yPos;
 
-	std::cout << "x: " << theWindow->xChange << ", y: " << theWindow->yChange << std::endl;
 }
 
 Window::~Window()
